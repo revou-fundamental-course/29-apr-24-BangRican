@@ -1,0 +1,29 @@
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.navigation-container>nav>button {
+    height: 32px;
+    border: 1px solid black;
+    background-color:white;
+}
+
+.content>header {
+    text-align: center;
+}
+
+
+
+
+.our-package-container {
+    font-size: 24px;
+    text-align: center;
+    align-content: center;
+    background-color: skyblue;
+    height: 100px;
+}
