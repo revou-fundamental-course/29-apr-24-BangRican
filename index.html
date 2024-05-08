@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- NAVBAR -->
     <header class="navigation-container">
-        <div style="background-image: url(assets/download1.jpg); height:32px; width:32px; background-size:cover;"></div>
+        <div style="background-image: url(assets/sticker_10.png); height:72px; width:72px; background-size:cover;"></div>
 
         <nav>
             <button>Home</button>
@@ -18,21 +19,65 @@
     </header>
     <hr>
 
+    <!-- body -->
     <article class="content">
         <header>
-            <h1>Ini Tugas Porto saya</h1>
-            <h3>ini teks dulu</h3>
+            <h1 class="title">Welcome To My Website</h1>
+            <h3 class="greeting">Happy exploring and always be happy</h3>
         </header>
 
-        <section>
-            <div></div>
-            <div></div>
+        <section class="core-content" style="display: flex;">
+
+    <!-- Side left IMAGE CAROUSEL -->
+            <div class="side-left">
+                <div class="image" style="background-image: url(./assets/gambar1.png); "></div>
+                <div class="image" style="background-image: url(./assets/gambar3.png); "></div>
+                <div class="image" style="background-image: url(./assets/gambar2.jpg); "></div>
+                <div class="image" style="background-image: url(./assets/gambar4.png); "></div>
+                <div class="image" style="background-image: url(./assets/gambar5.jpg); "></div>
+            </div>
+
+    <!-- Side right FORM-->
+            <div class="side-right" style="height: 500px; width:35%; background-color:#f0f0f0;">
+                <h2 class="title-right">Contact Us</h2>
+                <div class="form">
+                    <form action="">
+                      <label for="name">Name</label>
+                      <input required type="text" id="name" name="name" placeholder="Your name..">
+                  
+                      <label for="email">Email</label>
+                      <input required type="email" id="email" name="email" placeholder="Your email..">
+                  
+                      <label for="interested">What Are You Interested?</label>
+                      <select id="interested" name="interested">
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="Javascript">Javascript</option>
+                      </select>
+                    
+                      <input type="submit" id="send-btn" value="Send">
+                    </form>
+                  </div>
+            </div>
         </section>
 
+    <!-- After Main -->
         <section class="our-package-container">
-            <h1>Our Package</h1>
+            <h1>My Profile</h1>
         </section>
     </article>
+
+    <!-- FOOTER -->
+    <footer>
+        <div>
+            <img class="img-footer" src="./assets/sticker_10.png" alt="">
+            <h1><a class="my-name" href="">Rizki Candra Kurniawan</a></h1>
+            <p style="margin: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A voluptas, doloremque enim consequatur rerum doloribus ullam quis iure porro maiores aspernatur soluta possimus accusamus. Fuga voluptas inventore, dicta, soluta sint qui laborum id, modi quam hic magni provident consequatur? Voluptatibus dignissimos alias consectetur corporis rem, harum dolore amet totam eum quod autem vitae itaque obcaecati voluptas recusandae facere necessitatibus natus repudiandae deserunt. Voluptas magni sapiente facere asperiores, sequi minus quas exercitationem quos recusandae? Accusamus, eligendi velit. Ipsa tempora voluptatem culpa cumque incidunt perspiciatis ullam totam voluptatum, fugiat expedita a vitae, nulla quis beatae harum quidem officiis eveniet unde, molestiae vel.</p>
+        </div>
+        <div class="credit">
+            <h6>Website Portofolio By RevoU Mini Coding</h6>
+        </div>
+    </footer>
     <script src="js/script.js"></script>
 </body>
 </html>
